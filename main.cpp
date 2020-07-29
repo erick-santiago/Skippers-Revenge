@@ -19,7 +19,7 @@
 #include "Bullet.h"
 #include "Gunner.h"
 #include "GTimer.h"
-//this is a test
+
 
 // Game States
 enum GameStates

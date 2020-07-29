@@ -13,7 +13,7 @@ CXX_FLAGS = -w -std=c++14 -ggdb
 LINKER_FLAGS = -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 
 #OBJ_NAME specifies the name of our executable
-OBJ_NAME = testing_GW
+OBJ_NAME = testing_SR
 
 #This is the target that compiles our executable
 all : $(OBJS)

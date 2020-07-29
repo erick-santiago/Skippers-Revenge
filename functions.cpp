@@ -95,7 +95,7 @@ bool loadMedia()
 	bool success = true;
 
     //Open the font
-	gFont = TTF_OpenFont( "lazy.ttf", 36 );
+	gFont = TTF_OpenFont( "Media/lazy.ttf", 36 );
 	if( gFont == NULL )
 	{
 		printf( "Failed to load lazy font! SDL_ttf Error: %s\n", TTF_GetError() );

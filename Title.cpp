@@ -33,21 +33,21 @@ bool Title::loadMedia()
 	bool success = true;
 
 	//Open the font
-	gFont = TTF_OpenFont( "lazy.ttf", 52 );  // left off here...
+	gFont = TTF_OpenFont( "Media/lazy.ttf", 52 );  // left off here...
 	if( gFont == NULL )
 	{
 		printf( "Failed to load lazy font! SDL_ttf Error: %s\n", TTF_GetError() );
 		success = false;
 	}
 
-    if( !gBGTexture.loadFromFile( "lazyBG.png" ) )
+    if( !gBGTexture.loadFromFile( "Media/lazyBG.png" ) )
 	{
 		printf( "Failed to load background texture!\n" );
 		success = false;
 	}
 
     // load background music
-    bgMusic = Mix_LoadMUS( "titleMusic.wav" ); 
+    bgMusic = Mix_LoadMUS( "Media/titleMusic.wav" ); 
     if( bgMusic == NULL ) 
     { 
         printf( "Failed to load backgroun music... SDL_mixer Error: %s\n", Mix_GetError() ); 

@@ -44,7 +44,7 @@ bool GamePlay::loadMedia()
 	bool success = true;
 
     //Open the font
-	gFont = TTF_OpenFont( "zorque.ttf", 36 );
+	gFont = TTF_OpenFont( "Media/zorque.ttf", 36 );
 	if( gFont == NULL )
 	{
 		printf( "Failed to load ARCADE font! SDL_ttf Error: %s\n", TTF_GetError() );
@@ -58,66 +58,66 @@ bool GamePlay::loadMedia()
 	}
 
     // load health texture
-    if( !gHealthTexture.loadFromFile( "health.png" ) )
+    if( !gHealthTexture.loadFromFile( "Media/health.png" ) )
 	{
 		printf( "Failed to load health texture!\n" );
 		success = false;
 	}
 
     // load red bird frame2 texture
-    if( !gRBirdF2Texture.loadFromFile( "RBframe2_scaled.png" ) )
+    if( !gRBirdF2Texture.loadFromFile( "Media/RBframe2_scaled.png" ) )
 	{
 		printf( "Failed to load bird texture!\n" );
 		success = false;
 	}
 
-    if( !gBBirdF3Texture.loadFromFile( "BBframe3_scaled.png" ) )
+    if( !gBBirdF3Texture.loadFromFile( "Media/BBframe3_scaled.png" ) )
 	{
 		printf( "Failed to load bird texture!\n" );
 		success = false;
 	}
 
-    if( !gYBirdF1Texture.loadFromFile( "YBframe1_scaled.png" ) )
+    if( !gYBirdF1Texture.loadFromFile( "Media/YBframe1_scaled.png" ) )
 	{
 		printf( "Failed to load bird texture!\n" );
 		success = false;
 	}
 
-    if( !gGBirdF2Texture.loadFromFile( "GBframe2_scaled.png" ) )
+    if( !gGBirdF2Texture.loadFromFile( "Media/GBframe2_scaled.png" ) )
 	{
 		printf( "Failed to load bird texture!\n" );
 		success = false;
 	}
 
-    if( !gHBirdF1Texture.loadFromFile( "HBframe1_scaled.png" ) )
+    if( !gHBirdF1Texture.loadFromFile( "Media/HBframe1_scaled.png" ) )
 	{
 		printf( "Failed to load bird texture!\n" );
 		success = false;
 	}
 
 	//Load gunner texture
-	if( !gGunnerTexture.loadFromFile( "Gunner_scaled.png" ) )
+	if( !gGunnerTexture.loadFromFile( "Media/Gunner_scaled.png" ) )
 	{
 		printf( "Failed to load gunner texture!\n" );
 		success = false;
 	}
 
     // load bullet texture
-    if( !gBulletTexture.loadFromFile( "bullet1_scaled.png" ) )
+    if( !gBulletTexture.loadFromFile( "Media/bullet1_scaled.png" ) )
 	{
 		printf( "Failed to load bullet texture!\n" );
 		success = false;
 	}
 
 	//Load background texture
-	if( !gBGTexture.loadFromFile( "BG_1024_768.png" ) )
+	if( !gBGTexture.loadFromFile( "Media/BG_1024_768.png" ) )
 	{
 		printf( "Failed to load background texture!\n" );
 		success = false;
 	}
 
     // load background music
-    bgMusic = Mix_LoadMUS( "air_sharks.wav" ); 
+    bgMusic = Mix_LoadMUS( "Media/air_sharks.wav" ); 
     if( bgMusic == NULL ) 
     { 
         printf( "Failed to load backgroun music... SDL_mixer Error: %s\n", Mix_GetError() ); 
@@ -125,35 +125,35 @@ bool GamePlay::loadMedia()
     } 
 
     //Load sound effects 
-    sfx_bullet = Mix_LoadWAV( "laser.wav" ); 
+    sfx_bullet = Mix_LoadWAV( "Media/laser.wav" ); 
     if( sfx_bullet == NULL ) 
     { 
         printf( "Failed to load sfx_bullet... SDL_mixer Error: %s\n", Mix_GetError() ); 
         success = false; 
     }
  
-    sfx_hCrow = Mix_LoadWAV( "hCrow.wav" ); 
+    sfx_hCrow = Mix_LoadWAV( "Media/hCrow.wav" ); 
     if( sfx_hCrow == NULL ) 
     { 
         printf( "Failed to load sfx_hCrow... SDL_mixer Error: %s\n", Mix_GetError() ); 
         success = false; 
     }
 
-    sfx_lCrow = Mix_LoadWAV( "lCrow.wav" ); 
+    sfx_lCrow = Mix_LoadWAV( "Media/lCrow.wav" ); 
     if( sfx_lCrow == NULL ) 
     { 
         printf( "Failed to load sfx_lCrow... SDL_mixer Error: %s\n", Mix_GetError() ); 
         success = false; 
     }
 
-    sfx_bPop2 = Mix_LoadWAV( "birdPop.wav" ); 
+    sfx_bPop2 = Mix_LoadWAV( "Media/birdPop.wav" ); 
     if( sfx_bPop2 == NULL ) 
     { 
         printf( "Failed to load sfx_bPop2... SDL_mixer Error: %s\n", Mix_GetError() ); 
         success = false; 
     }
 
-    sfx_gHit = Mix_LoadWAV( "gDamage.wav" ); 
+    sfx_gHit = Mix_LoadWAV( "Media/gDamage.wav" ); 
     if( sfx_gHit == NULL ) 
     { 
         printf( "Failed to load sfx_gHit... SDL_mixer Error: %s\n", Mix_GetError() ); 
