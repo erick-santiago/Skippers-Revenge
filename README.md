@@ -48,7 +48,7 @@ The media is included in the `Media` directory.
 
 `D` - shoot
 
-`R` - To replay game after a gameover
+`R` - To replay game, after a gameover
 
 `Arrow keys` - To move up, down, left and right
 
