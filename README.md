@@ -44,6 +44,14 @@ $ ./testing_SR
 ```
 The media is included in the `Media` directory.
 
+## Keyboard Controls
+
+`D` - shoot
+
+`R` - To replay game after a gameover
+
+`Arrow keys` - To move up, down, left and right
+
 ## Tested With
 Linux Mint 18.3 Sylvia
 
