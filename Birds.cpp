@@ -1,3 +1,10 @@
+/*
+ * Birds.cpp
+ *
+ *  Created on: May, 2019
+ *      Author: esantiago
+ */
+
 #include "constants.h"
 #include "globals.h"
 #include <SDL2/SDL_mixer.h>

@@ -1,3 +1,10 @@
+/*
+ * GameOver.h
+ *
+ *  Created on: May, 2019
+ *      Author: esantiago
+ */
+
 #ifndef GAMEOVER_H_
 #define GAMEOVER_H_
 

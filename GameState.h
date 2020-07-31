@@ -1,3 +1,10 @@
+/*
+ * GameState.h
+ *
+ *  Created on: May, 2019
+ *      Author: esantiago
+ */
+
 #ifndef GAMESTATE_H_
 #define GAMESTATE_H_
 

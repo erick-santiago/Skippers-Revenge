@@ -1,3 +1,10 @@
+/*
+ * LTexture.h
+ *
+ *  Created on: May, 2019
+ *      Author: esantiago
+ */
+
 #ifndef LTEXTURE_H_
 #define LTEXTURE_H_
 

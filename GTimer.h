@@ -1,3 +1,10 @@
+/*
+ * GTimer.h
+ *
+ *  Created on: May, 2019
+ *      Author: esantiago
+ */
+
 #ifndef GTIMER_H_
 #define GTIMER_H_
 

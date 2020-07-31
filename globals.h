@@ -1,3 +1,10 @@
+/*
+ * globals.h
+ *
+ *  Created on: May, 2019
+ *      Author: esantiago
+ */
+
 #ifndef GLOBALS_H_
 #define GLOBALS_H_
 

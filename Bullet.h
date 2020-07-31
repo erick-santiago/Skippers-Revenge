@@ -1,3 +1,10 @@
+/*
+ * Bullet.h
+ *
+ *  Created on: May, 2019
+ *      Author: esantiago
+ */
+
 #ifndef BULLET_H_   
 #define BULLET_H_
 

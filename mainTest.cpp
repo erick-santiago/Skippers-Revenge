@@ -1,3 +1,10 @@
+/*
+ * mainTest.cpp
+ *
+ *  Created on: May, 2019
+ *      Author: esantiago
+ */
+
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
