@@ -24,9 +24,9 @@ For those who have Advanced Packaging Tool available (i.e., Ubuntu, Debian, etc)
 ```
 $ apt-cache search libsdl2
 ```
-You'll want to download the development version of SDL2 and SDL2-mixer (audio library for sound). As of last update of this README, the development package(s) are libsdl2-dev and libsdl2-mixer-dev.  Use command:
+You'll want to download the development version of SDL2, SDL2-image (image file loading library), SDL2-mixer (audio library for sound) and SDL2-ttf (TrueType fonts sample library). As of last update of this README, the development package(s) are libsdl2-dev, libsdl2-image-dev, libsdl2-mixer-dev and libsdl2-ttf-dev.  Use command:
 ```
-$ sudo apt-get install libsdl2-dev libsdl2-mixer-dev
+$ sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
 ```
 
 ## Cloning, compiling and running
