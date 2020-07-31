@@ -54,6 +54,7 @@ The media is included in the `Media` directory.
 
 ## Tested With
 Linux Mint 18.3 Sylvia
+
 Linux Ubuntu 18.04 Bionic
 
 ## References
