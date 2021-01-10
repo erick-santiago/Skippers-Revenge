@@ -1,5 +1,5 @@
 #OBJS specifies which files to compile as part of the project
-OBJS = globals.cpp LTexture.cpp functions.cpp Bird.cpp Birds.cpp Bullet.cpp Gunner.cpp GTimer.cpp Intro.cpp Title.cpp GamePlay.cpp GameOver.cpp mainTest.cpp
+OBJS = globals.cpp LTexture.cpp functions.cpp Bird.cpp Birds.cpp Bullet.cpp Gunner.cpp GTimer.cpp Intro.cpp Title.cpp GamePlay.cpp GameOver.cpp main.cpp
 
 #CC specifies which compiler we're using
 CXX = g++

@@ -23,7 +23,7 @@ Gunner::Gunner()
     : bullet_flag( false ), bird_flag( false ), hitGunner_flag( false ), dedGunner_flag( false )
 {
     //Initialize the offsets
-    verticalOffset = rand() % 620;
+    verticalOffset = rand() % 535;
     mPosX = 0;
     mPosY = verticalOffset;
 

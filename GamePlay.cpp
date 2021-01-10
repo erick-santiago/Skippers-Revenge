@@ -280,7 +280,7 @@ void GamePlay::logic()
 
         if( optionBird == 1)
         {        
-            verticalOffset = rand() % 600;  // 728                 
+            verticalOffset = rand() % 550;  // 728                 
 
             spbv.push_back( std::make_unique<RBird>(SCREEN_WIDTH , verticalOffset ) );
             gunner.bird_flag = false;  
@@ -289,7 +289,7 @@ void GamePlay::logic()
 
         if( optionBird == 2)
         {
-            verticalOffset = rand() % 582;  // 710
+            verticalOffset = rand() % 550;  // 710
 
             spbv.push_back( std::make_unique<BBird>(SCREEN_WIDTH , verticalOffset ) );
             gunner.bird_flag = false;
@@ -298,7 +298,7 @@ void GamePlay::logic()
 
         if( optionBird == 3)
         {
-            verticalOffset = rand() % 582;  // 710
+            verticalOffset = rand() % 550;  // 710
 
             spbv.push_back( std::make_unique<YBird>(SCREEN_WIDTH , verticalOffset ) );
             gunner.bird_flag = false;
@@ -307,7 +307,7 @@ void GamePlay::logic()
 
         if( optionBird == 4)
         {
-            verticalOffset = rand() % 596;  // 723                
+            verticalOffset = rand() % 550;  // 723                
 
             spbv.push_back( std::make_unique<GBird>(SCREEN_WIDTH , verticalOffset ) );
             gunner.bird_flag = false;  
@@ -316,7 +316,7 @@ void GamePlay::logic()
 
         if( optionBird == 5)
         {
-            verticalOffset = rand() % 582;  // 710
+            verticalOffset = rand() % 540;  // 710
 
             spbv.push_back( std::make_unique<HBird>(SCREEN_WIDTH , verticalOffset ) );
             gunner.bird_flag = false;
